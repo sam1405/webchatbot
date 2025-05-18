@@ -1,0 +1,64 @@
+<html>
+<head>
+<title> ChaTBot </title>
+<style>
+div{
+background-color:skyblue;
+text-align:center;
+}
+
+ul{
+font-size:25;
+}
+
+.A{
+font-family:Gabriola;
+font-size:30;
+}
+
+</style>
+</head>
+
+<body>
+<h1>Welcome!</h1>
+<div>
+<h1>This is Riya, A intelligent chatbot </h1>
+<p><h3>your personal AI assistant, Get 24/7 support<h3><p>
+</div>
+<br>
+<h1>what riya can do</h1>
+
+<ul type="disc">
+<li>supports chat conversation </li>
+<li>supports voice conversation </li>
+</ul>
+<br>
+
+<p class="A">Riya can help you like an personal assistant<br> she can complete various tasks like questions regarding to search travelling places etc.
+</p>
+<script src="https://cdn.jotfor.ms/s/umd/latest/for-embedded-agent.js"></script>
+<script>
+  window.addEventListener("DOMContentLoaded", function() {
+    window.AgentInitializer.init({
+      rootId: "JotformAgent-0196e23890de7a878ff44d465e295f3b0b85",
+      formID: "0196e23890de7a878ff44d465e295f3b0b85",
+      queryParams: ["skipWelcome=1", "maximizable=1"],
+      domain: "https:\/\/www.jotform.com",
+      isInitialOpen: false,
+      isDraggable: false,
+      background: "linear-gradient(180deg, #6C73A8 0%, #6C73A8 100%)",
+      buttonBackgroundColor: "#0066C3",
+      buttonIconColor: "#FFFFFF",
+      variant: false,
+      customizations: {
+        greeting: "Yes",
+        greetingMessage: "Hi Friend! How can I assist you?",
+        pulse: "Yes",
+        position: "right",
+      }
+    });
+  });
+</script>
+
+</body>
+</html>
